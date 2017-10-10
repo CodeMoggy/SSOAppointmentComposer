@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title></title>
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/1.0/fabric.min.css">
+    <link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/1.0/fabric.components.min.css">
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script>
+    <!-- To enable offline debugging using a local reference to Office.js, use:                        -->
+    <!-- <script src="../../Scripts/Office/MicrosoftAjax.js" type="text/javascript"></script>  -->
+    <!-- <script src="../../Scripts/Office/1.1/office.js" type="text/javascript"></script>  -->
+    <link href="App.css" rel="stylesheet" type="text/css" />
+    <script src="App.js" type="text/javascript"></script>
+    <link href="AppointmentCompose.css" rel="stylesheet" type="text/css" />
+    <script src="AppointmentCompose.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="ms-font-m" id="content-main">
+        <div class="padding">
+            <div class="ms-Table">
+                <div class="ms-Table-row">
+                    <span class="ms-Table-cell">Claim</span>
+                    <span class="ms-Table-cell">Contents</span>
+                </div>
+                <div class="ms-Table-row">
+                    <span class="ms-Table-cell">Error:</span>
+                    <span class="ms-Table-cell"><input style="width: 100%;" id="error" value="Working..." /></span>
+                </div>
+                <div class="ms-Table-row">
+                    <span class="ms-Table-cell">Tenant:</span>
+                    <span class="ms-Table-cell"><input style="width: 100%;" id="tenant"/></span>
+                </div>
+                <div class="ms-Table-row">
+                    <span class="ms-Table-cell">SecretKey:</span>
+                    <span class="ms-Table-cell"><input style="width: 100%;" id="thirdPartySecretKey" /></span>
+                </div>
+                <div class="ms-Table-row">
+                    <span class="ms-Table-cell">User Exchange ID:</span>
+                    <span class="ms-Table-cell"><input style="width: 100%;" id="msexchuid" /></span>
+                </div>
+                <div class="ms-Table-row">
+                    <span class="ms-Table-cell">Authentication metadata URL:</span>
+                    <span class="ms-Table-cell"><input style="width: 100%;" id="amurl" /></span>
+                </div>
+                <div class="ms-Table-row">
+                    <span class="ms-Table-cell">Unique identifier:</span>
+                    <span class="ms-Table-cell"><input style="width: 100%;" id="uniqueID" /></span>
+                </div>
+                <div class="ms-Table-row">
+                    <span class="ms-Table-cell">Audience:</span>
+                    <span class="ms-Table-cell"><input style="width: 100%;" id="aud" /></span>
+                </div>
+                <div class="ms-Table-row">
+                    <span class="ms-Table-cell">Issuer:</span>
+                    <span class="ms-Table-cell"><input style="width: 100%;" id="iss" /></span>
+                </div>
+                <div class="ms-Table-row">
+                    <span class="ms-Table-cell">Certificate thumbprint:</span>
+                    <span class="ms-Table-cell"><input style="width: 100%;" id="x5t" /></span>
+                </div>
+                <div class="ms-Table-row">
+                    <span class="ms-Table-cell">Valid from:</span>
+                    <span class="ms-Table-cell"><input style="width: 100%;" id="nbf" /></span>
+                </div>
+                <div class="ms-Table-row">
+                    <span class="ms-Table-cell">Valid to:</span>
+                    <span class="ms-Table-cell"><input style="width: 100%;" id="exp" /></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

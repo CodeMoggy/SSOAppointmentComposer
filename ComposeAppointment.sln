@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComposeAppointment", "ComposeAppointment\ComposeAppointment.csproj", "{5794A7B6-27CC-44C4-8C26-E2F225F268C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComposeAppointmentWeb", "ComposeAppointmentWeb\ComposeAppointmentWeb.csproj", "{4B998150-E5E0-4715-803B-4EE927047715}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5794A7B6-27CC-44C4-8C26-E2F225F268C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5794A7B6-27CC-44C4-8C26-E2F225F268C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5794A7B6-27CC-44C4-8C26-E2F225F268C9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5794A7B6-27CC-44C4-8C26-E2F225F268C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5794A7B6-27CC-44C4-8C26-E2F225F268C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5794A7B6-27CC-44C4-8C26-E2F225F268C9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4B998150-E5E0-4715-803B-4EE927047715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B998150-E5E0-4715-803B-4EE927047715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B998150-E5E0-4715-803B-4EE927047715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B998150-E5E0-4715-803B-4EE927047715}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A5D7241-AE9C-4840-9801-EF044FF14A3C}
+	EndGlobalSection
+EndGlobal
