@@ -1,4 +1,10 @@
-#Appointment Composer
+# Appointment Composer
+
+This code repository was created as a result of the following github repo https://github.com/OfficeDev/Outlook-Add-in-JavaScript-ValidateIdentityToken.
+
+I decided to take that repo and simplify it so that the service and add-in were in the same project and therefore the same web app. 
+
+Based on partner feedback I then extended the code to demonstrate how to use Azure Key Vault to store credentials based on the tenancy / domain of the user, thus enabling a user not to have to logon each time they use the add-in. 
 
 <a name="codedescription"></a>
 ##Description of the code
