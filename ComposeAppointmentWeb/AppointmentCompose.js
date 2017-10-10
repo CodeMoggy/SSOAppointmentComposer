@@ -1,4 +1,7 @@
-﻿/// <reference path="App.js" />
+﻿//Copyright (c) CodeMoggy. All rights reserved. Licensed under the MIT license.
+//See LICENSE in the project root for license information.
+
+/// <reference path="App.js" />
 
 var _mailbox;
 var _customProps;
@@ -59,7 +62,7 @@ var _customProps;
 
                         // on save set the body of the appointment just to show something has happened
                         if (asyncResult.status == Office.AsyncResultStatus.Succeeded)
-                            var appointment = Office.context.mailbox.item.body.setAsync("This appointment has a custom property equal to " + data.thirdPartyEventId);
+                            var appointment = Office.context.mailbox.item.body.setAsync("This new appointment has a custom property equal to " + data.thirdPartyEventId);
                     });
                 };
 
@@ -70,7 +73,5 @@ var _customProps;
                 // placeholder
             });
         });
-
-
     }
 })();

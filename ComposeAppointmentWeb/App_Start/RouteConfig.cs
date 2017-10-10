@@ -1,4 +1,7 @@
-﻿using System.Web.Mvc;
+﻿//Copyright (c) CodeMoggy. All rights reserved. Licensed under the MIT license.
+//See LICENSE in the project root for license information.
+
+using System.Web.Mvc;
 using System.Web.Routing;
 
 namespace ComposeAppointmentWeb

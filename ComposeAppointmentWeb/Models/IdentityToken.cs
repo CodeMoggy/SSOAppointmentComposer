@@ -1,4 +1,7 @@
-﻿using Microsoft.IdentityModel.S2S.Tokens;
+﻿//Copyright (c) CodeMoggy. All rights reserved. Licensed under the MIT license.
+//See LICENSE in the project root for license information.
+
+using Microsoft.IdentityModel.S2S.Tokens;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
