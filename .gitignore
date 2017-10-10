@@ -4,3 +4,5 @@ bin
 obj
 packages
 /ComposeAppointmentWeb/Properties/PublishProfiles/AppointmentComposer - Web Deploy.pubxml
+/.vs/ComposeAppointment/v15/sqlite3/storage.ide
+/.vs/VSWorkspaceState.json
